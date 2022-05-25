@@ -1,0 +1,153 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.contents1 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents2 {
+    font-size: 24px;
+}
+
+/* intro */
+
+.intro_bg {
+    background-image:url("../img/main_bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 718px;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    height: 86px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    margin-right: 0;
+}
+
+.nav > li {
+    margin-top: 10px;
+    margin-left: 84px;
+    margin-right: 50px;
+}
+
+.nav > li > a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* list */
+
+.list {
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1200px;
+    background: #fff;
+    margin: auto;
+}
+
+.list > li {
+    flex: 1;
+    height: 132px;
+    background: #fff;
+}
+
+.list > li > div {
+    text-align: center;
+    margin-top: 37px;
+    height: 57px;
+}
+
+.list > li:not(:last-child) > div {
+    border-right: 1px solid #E1E1E1;
+}
+
+/* main */
+
+.main_text {
+    width: 100%;
+    height: 900px;
+    margin-top: -132px;
+    background: #f1f2f3;
+}
+
+.service {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    height: 800px;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.service > li {
+    flex: 1;
+}
+
+.service > li:nth-child(1) > h2 {
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.service > li:nth-child(1) > img {
+    width: 550px;
+    height: 650px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.service > li:nth-child(1) > p {
+    text-align: right;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-right: 33px;
+}
+
+.service > li:nth-child(2) > h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.service > li:nth-child(2) > p {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 110px;
+    background: black;
+    opacity: 60%;
+}
+
+.footer > p {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: right;
+    color: darkgray;
+    margin-right: 20px;
+    padding-top: 25px;
+}
