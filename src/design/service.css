@@ -1,0 +1,95 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    height: 86px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    list-style: none;
+}
+
+.nav > li {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.nav > li > a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* main */
+
+.wrapper1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 900px;
+    margin: auto;
+}
+
+.wrapper1 > div {
+    flex: 1;
+}
+
+.wrapper1 > :nth-child(1) > img {
+    width: 100%;
+    margin-top: 30px;
+    background-size: cover;
+}
+
+.wrapper1 > :nth-child(2) {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper1 > :nth-child(2) > ul > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.wrapper1 > :nth-child(2) > ul > a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 2px;
+    padding-right: 3px;
+    padding-left: 3px;
+    font-size: 15px;
+    margin-left: 10px;
+    border: 1px solid red;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 110px;
+    background: black;
+    opacity: 60%;
+}
+
+.footer > p {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: right;
+    color: darkgray;
+    margin-right: 20px;
+    padding-top: 25px;
+}
